@@ -1,0 +1,6 @@
+## Interface: 80000
+## Title: Klaz|cff1994ffStats|r
+## Author: Klaz
+## Notes: Displays fps, latency, durability, and clock on screen.
+
+Stats.lua
