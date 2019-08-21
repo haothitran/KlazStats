@@ -1,6 +1,8 @@
-## Interface: 80000
+## Interface: 80200
 ## Title: Klaz|cff1994ffStats|r
 ## Author: Klaz
-## Notes: Displays fps, latency, durability, and clock on screen.
+## Notes: Displays fps, latency, durability, and clock on screen. (/klazstats)
+## SavedVariables: KlazStatsDB
 
+Config.lua
 Stats.lua

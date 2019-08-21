@@ -2,7 +2,7 @@
 
 A World of Warcraft add-on that displays fps, latency, durability, and clock on screen.
 
-There are no in-game options. Settings are hard-coded.
+Use the command `/klazstats` to see some in-game options. All other settings are hard-coded.
 
 ## Features
 
