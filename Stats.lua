@@ -209,7 +209,7 @@ stats:SetScript('OnEnter', function(self)
   if not InCombatLockdown() then
     GameTooltip:ClearLines()
     GameTooltip:SetOwner(self, 'ANCHOR_NONE')
-    GameTooltip:SetPoint('BOTTOM', self, 'TOP', 0, 12)
+    GameTooltip:SetPoint('TOP', self, 'BOTTOM', 0, -12)
 
     local addons, total, nr, name = {}, 0, 0
     local blizz = collectgarbage('count')
