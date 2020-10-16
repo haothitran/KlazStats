@@ -34,7 +34,8 @@ end)
 
 local anchor = CreateFrame('Frame', 'KlazStatsAnchor', UIParent)
 anchor:SetSize(C.Size.Width, C.Size.Height)
-anchor:SetBackdrop({bgFile=[[Interface\MINIMAP\TooltipBackdrop-Background]]})
+if not anchor.SetBackdrop then Mixin(anchor, BackdropTemplateMixin) end
+anchor:SetBackdrop({bgFile="Interface\\DialogFrame\\UI-DialogBox-Background"})
 anchor:SetFrameStrata('HIGH')
 anchor:SetMovable(true)
 anchor:SetClampedToScreen(true)
