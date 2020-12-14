@@ -1,4 +1,4 @@
-## Interface: 90001
+## Interface: 90002
 ## Title: Klaz|cff1994ffStats|r
 ## Author: Klaz
 ## Notes: Displays fps, latency, durability, and clock on screen. (/klazstats)
