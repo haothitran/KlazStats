@@ -150,7 +150,6 @@ local function getTime()
     t = date('|cffffffff%I:%M|r %p')
     return t
   end
-
 end
 
 local SLOTS = {}
